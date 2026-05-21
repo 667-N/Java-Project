@@ -23,10 +23,10 @@ SpaceVault
 
 ### Ендпоінт 1: Отримання списку графічних елементів з фільтрацією
 
-Запит: GET /api/v1/graphics
+Запит: GET /api/v1/graphics.
 Параметри запиту (Query Params):
-`category` (string, необов'язковий) — наприклад, `blinkies`
-`tag` (string, необов'язковий) — наприклад, `retro`
+category (string, необов'язковий) — наприклад, blinkies
+tag (string, необов'язковий) — наприклад, retro
 Контракт відповіді (Response):
 
 ```json
