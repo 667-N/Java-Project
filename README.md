@@ -43,20 +43,25 @@ SpaceVault
       }
     }
   ]
-} ```
+}
+```
 
 Ендпоінт 2: Додавання елемента до обраного
 Запит: POST /api/v1/favorites
 Контракт запиту (Request Body):
+```json
 {
   "graphic_id": "g_001"
 }
+```
 Контракт відповіді (Response):
+```json
 {
   "status": "success",
   "message": "Element successfully added to favorites",
   "favorites_count": 5
 }
+```
 
 # 3. Тест-кейси у форматі Given/When/Then
 Тест-кейс 1: Фільтрація каталогу за категорією
