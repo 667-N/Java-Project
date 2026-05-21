@@ -23,7 +23,8 @@ SpaceVault
 category (string, необов'язковий) — наприклад, blinkies
 tag (string, необов'язковий) — наприклад, retro
 Контракт відповіді (Response):
-'''{
+'''json
+{
   "status": "success",
   "data": [
     {
